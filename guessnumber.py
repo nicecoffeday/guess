@@ -6,6 +6,7 @@ while True:
 	a = int(input('請猜一個數字'))
 	if a == r: 
 		print('您猜對了')
+		print('這是你猜的第', count, '次')
 		break 
 	elif a < r:
 		print('比答案小')
